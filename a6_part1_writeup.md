@@ -1,7 +1,7 @@
 # Assignment 6 Part 1 - Writeup
 
-**Name:** _______________  
-**Date:** _______________
+**Name:** Piero Barsanti 
+**Date:** 11/21/25
 
 ---
 
@@ -10,7 +10,7 @@
 ### Question 1: R² Score Interpretation
 What does the R² score tell you about your model? What does it mean if R² is close to 1? What if it's close to 0?
 
-**YOUR ANSWER:**
+**YOUR ANSWER:** R2 score tells you the variance it is accounting for and it tells you if there is a pattern in the data. If it is closer to 1, the pattern is clearer. If closer to 0, there is little, to no pattern in your data.
 
 
 
@@ -20,7 +20,7 @@ What does the R² score tell you about your model? What does it mean if R² is c
 ### Question 2: Mean Squared Error (MSE)
 What does the MSE (Mean Squared Error) mean in plain English? Why do you think we square the errors instead of just taking the average of the errors?
 
-**YOUR ANSWER:**
+**YOUR ANSWER:**MSE LITERALLY MEANS THE AVERAGE OF THE ERRORS SQUARED AND WE USE IT TO SEE THE DIFFERENCE BETWEEN THE PREDICTIONS AND THE ACTUACL FACTUAL DATA.
 
 
 
@@ -32,7 +32,7 @@ Would you trust this model to predict a score for a student who studied 10 hours
 - What's the maximum hours in your dataset?
 - What happens when you make predictions outside the range of your training data?
 
-**YOUR ANSWER:**
+**YOUR ANSWER:**THE MAX NUMBER OF HOURS STUDIED IS 9.6 AND THE LEAST IS 2.6. OUR RANGE IS 2.6-9.6 WHICH MEANS IT HAS NO DATA FOR ABOVE 9.6 HOURS SO IT USES THE SAME PATTERN FROM BEFORE AND IT WILL NOT BE ACCURATE BECAUSE WE DONT HAVE THE DATA. 
 
 
 
@@ -47,7 +47,7 @@ Looking at your scatter plot, describe the relationship between hours studied an
 - Linear or non-linear?
 - Positive or negative?
 
-**YOUR ANSWER:**
+**YOUR ANSWER:** THE RELATIONSHIP IS NOT BAD BUT IT IS LESS THAN THA ICE CREAM. IT IS LINEAR AND POSITIVE BECAUSE IT GOES UP AND THE RELATIONSIP CAN FORM A LINE.
 
 
 
@@ -58,9 +58,9 @@ Looking at your scatter plot, describe the relationship between hours studied an
 What are some real-world factors that could affect test scores that this model doesn't account for? List at least 3 factors.
 
 **YOUR ANSWER:**
-1. 
-2. 
-3. 
+1. STUDY TOOLS
+2. INTERNET ACCESS
+3. THE DIFFUCULTY OF THE TEST
 
 
 ---
@@ -70,7 +70,7 @@ What are some real-world factors that could affect test scores that this model d
 ### Question 6: Train/Test Split
 Why do we split our data into training and testing sets? What would happen if we trained and tested on the same data?
 
-**YOUR ANSWER:**
+**YOUR ANSWER:** TO SHOW WHAT PREDICTIONS SHOULD LOOK LIKE AND GIVE IT A RANGE TO MAKE PREDICTIONS IN. IT WOULD GIVE YOU THE SAME PREDICTIONS.
 
 
 
@@ -80,7 +80,7 @@ Why do we split our data into training and testing sets? What would happen if we
 ### Question 7: Most Challenging Part
 What was the most challenging part of this assignment for you? How did you overcome it (or what help do you still need)?
 
-**YOUR ANSWER:**
+**YOUR ANSWER:** FINDING WHAT CODE I NEEDED TO CHANGE FROM ICE CREAM EXAMPLE TO THE A6 PART 1 PY WAS DIFFICULT BECAUSE THE SLIGHTEST LETTER CHANGED MY RESULTS COMPLETLY. I THOROUGHLY CHECKED THAT I DID NOT HAVE EITHER ICE CREAM, OR TEMPERATURE.
 
 
 
@@ -96,7 +96,7 @@ Describe one real-world problem you could solve with linear regression. What wou
 - **Why this relationship might be linear:**
 
 **YOUR ANSWER:**
-
+X = 
 
 
 
