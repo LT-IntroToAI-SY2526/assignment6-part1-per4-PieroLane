@@ -216,14 +216,14 @@ if __name__ == "__main__":
     # Step 4: Train the model
     model = train_model(X_train, y_train)
     
-    # Step 5: Evaluate the model
-    predictions = evaluate_model(model, X_test, y_test)
+    # # Step 5: Evaluate the model
+    # predictions = evaluate_model(model, X_test, y_test)
     
-    # Step 6: Visualize results
-    visualize_results(X_train, y_train, X_test, y_test, predictions, model)
+    # # Step 6: Visualize results
+    # visualize_results(X_train, y_train, X_test, y_test, predictions, model)
     
-    # Step 7: Make a new prediction
-    make_prediction(model, 85)
+    # # Step 7: Make a new prediction
+    # make_prediction(model, 85)
     
     print("\n" + "=" * 60)
     print("✓ Example complete! Check out the saved plots.")
