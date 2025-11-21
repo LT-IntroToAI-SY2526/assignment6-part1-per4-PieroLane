@@ -263,4 +263,4 @@ if __name__ == "__main__":
     print("\n" + "=" * 70)
     print("✓ Assignment complete! Check your saved plots.")
     print("Don't forget to complete a6_part1_writeup.md!")
-    print("=" * 70)
+    print("=" * 70) 

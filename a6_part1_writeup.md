@@ -70,7 +70,7 @@ What are some real-world factors that could affect test scores that this model d
 ### Question 6: Train/Test Split
 Why do we split our data into training and testing sets? What would happen if we trained and tested on the same data?
 
-**YOUR ANSWER:** TO SHOW WHAT PREDICTIONS SHOULD LOOK LIKE AND GIVE IT A RANGE TO MAKE PREDICTIONS IN. IT WOULD GIVE YOU THE SAME PREDICTIONS.
+**YOUR ANSWER:** TO SHOW WHAT PREDICTIONS SHOULD LOOK LIKE AND GIVE IT A RANGE TO MAKE PREDICTIONS IN. IT WOULD GIVE YOU THE SAME PREDICTIONS. 
 
 
 
